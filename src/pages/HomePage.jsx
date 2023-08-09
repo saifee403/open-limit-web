@@ -18,6 +18,7 @@ import Footer from "../Components/Home/Footer";
 import Navbar from "../Components/Home/Navbar";
 
 
+
 function HomePage() {
   return (
     <Box bgColor={"#fdfdfd"}>
@@ -44,7 +45,7 @@ function HomePage() {
           New arrivals in womenswear upto 30%
         </Text>
       </Box>
-
+      
       <HomeSlider />
 
       <Box

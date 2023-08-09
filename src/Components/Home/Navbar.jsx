@@ -99,7 +99,7 @@ const Navbar = () => {
               <MenuList>
                 <MenuGroup title="Profile">
                   <MenuItem color="pink.400">
-                    Hey,{isAuth ? `${afterLoginUser.name}` : "User"}
+                    Hey,{isAuth ? `PKR{afterLoginUser.name}` : "User"}
                   </MenuItem>
                   <MenuItem>My Account</MenuItem>
                   <MenuItem>Order History</MenuItem>

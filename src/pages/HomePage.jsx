@@ -132,7 +132,8 @@ function HomePage() {
         <Image
             width="100%"
             borderRadius={"20px"}
-            src="https://lmsin.net/cdn-cgi/image/w=1232,q=70,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/LS-new/LS-UberHP-PromoWidget24-Desk-Banner1-07Mar23.jpg"
+            src="https://i0.wp.com/roycollections.com/wp-content/uploads/2022/04/BeechTree-Eid-Collection-unstitched-suit.jpg?w=1456&ssl=1"
+            // src="https://lmsin.net/cdn-cgi/image/w=1232,q=70,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/LS-new/LS-UberHP-PromoWidget24-Desk-Banner1-07Mar23.jpg"
           />
         </Link>
         </Box>
@@ -162,7 +163,8 @@ function HomePage() {
           <Link to="/men"><Image
             borderRadius={"20px"}
             width="100%"
-            src="https://lmsin.net/cdn-cgi/image/w=1232,q=70,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/LS-new/desktop-LS-UBERHP-GiftCard-13modblock-oneBythree-A-07Mar2023.jpg"
+            src="https://essentialsclothing.ca/wp-content/uploads/2023/07/essentials.jpg"
+            // src="https://lmsin.net/cdn-cgi/image/w=1232,q=70,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/LS-new/desktop-LS-UBERHP-GiftCard-13modblock-oneBythree-A-07Mar2023.jpg"
           /></Link>
         </Box>
 

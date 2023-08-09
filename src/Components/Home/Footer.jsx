@@ -41,7 +41,7 @@ const Footer = () => {
 
       <Grid
         mt={"50px"}
-        bg={"#aaf0d1"}
+        // bg={"#aaf0d1"}
         gridTemplateColumns={{
           base: "repeat(2,1fr)",
           sm: "repeat(3,1fr)",
@@ -120,14 +120,17 @@ const Footer = () => {
         </Box>
       </Grid>
 
-      <Divider mt="50px" />
+      <Divider mt="50px"  />
       <Flex
+      
         color={"black"}
         justifyContent="space-between"
         flexDir={{ lg: "row", md: "row", sm: "column", base: "column" }}
         mt="30px"
+        
       >
         <Grid
+          
           // border={"1px solid gray"}
           gridTemplateColumns={{
             base: "repeat(1,1fr)",

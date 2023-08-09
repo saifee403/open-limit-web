@@ -43,7 +43,7 @@ const AdminManageProduct = () => {
 
     axios
       .post(
-        `https://lifestyle-mock-server-api.onrender.com/${product.gender}`,
+        `https://lifestyle-mock-server-api.onrender.com/PKR{product.gender}`,
         product
       )
       .then((res) => {

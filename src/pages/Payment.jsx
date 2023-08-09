@@ -91,7 +91,7 @@ function Payment() {
       setOTP(otp);
 
       toast({
-        description: `Your OTP is ${otp}`,
+        description: `Your OTP is PKR{otp}`,
         status: "success",
         isClosable: true,
         position: "top",
@@ -105,7 +105,7 @@ function Payment() {
       cartItems.length > 0 &&
         cartItems.forEach((el) => [
           axios.delete(
-            `https://lifestyle-mock-server-api.onrender.com/cart/${el.id}`
+            `https://lifestyle-mock-server-api.onrender.com/cart/PKR{el.id}`
           ),
         ]);
 

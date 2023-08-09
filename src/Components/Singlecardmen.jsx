@@ -140,7 +140,7 @@ const Singlecardmen = () => {
                 fontWeight={300}
                 fontSize={"2xl"}
               >
-                ${el.price} USD Inclusive of all taxes
+                PKR{el.price} USD Inclusive of all taxes
               </Text>
               <Text
                 as="del"
@@ -148,7 +148,7 @@ const Singlecardmen = () => {
                 fontWeight={300}
                 fontSize={"xl"}
               >
-                ${el.actualPrice}
+                PKR{el.actualPrice}
               </Text>{" "}
               <span>Save Rs 1500 (50.02%)</span>
               <Text />

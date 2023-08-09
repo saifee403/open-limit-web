@@ -27,7 +27,7 @@ function AdminProduct() {
 
   const getData = () => {
     axios
-      .get(`https://lifestyle-mock-server-api.onrender.com/${category}`)
+      .get(`https://lifestyle-mock-server-api.onrender.com/PKR{category}`)
       .then((res) => {
         // console.log(res.data)
         setMen(res.data);
@@ -40,7 +40,7 @@ function AdminProduct() {
   const handleDelete = (id) => {
     console.log(id);
     axios
-      .delete(`https://lifestyle-mock-server-api.onrender.com/men/${id}`)
+      .delete(`https://lifestyle-mock-server-api.onrender.com/men/PKR{id}`)
       .then((res) => {
         toast({
           title: "Product Deleted Successful.",
@@ -110,7 +110,7 @@ function AdminProduct() {
                 <Divider />
                 <CardFooter>
                   <ButtonGroup spacing="2">
-                    <Link to={`/editProduct/${el.id}`}>
+                    <Link to={`/editProduct/PKR{el.id}`}>
                       <Button colorScheme="blue">Edit Product</Button>
                     </Link>
 

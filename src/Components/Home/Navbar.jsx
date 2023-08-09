@@ -18,14 +18,13 @@ import { AiOutlineHeart } from "react-icons/ai";
 import Logo from "../../Asssets/logo2.png";
 import { Link, useNavigate } from "react-router-dom";
 import HomeMenu from "./HomeMenu";
-// import SearchBar from "./SearchBar";
 import SideBar from "./Sidebar";
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
 import { logout } from "../../redux/authReducer/action";
 import axios from "axios";
 import { addToCart } from "../../redux/cartReducer/action";
-// import NavbarTop from "./NavbarTop";
+
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -49,14 +48,12 @@ const Navbar = () => {
       position={"sticky"}
       top="0"
       zIndex={"100"}
-      bg="#AAF0D1"
+      bg="#3fd3ac"
       // bg="#f7f8f7"
       width="100%"
       boxShadow=" 0px 7px 7px -5px rgba(170, 159, 170, 0.2)"
     >
-      {/* <Box display={{ base: "none", sm: "none", md: "none", lg: "block" }}>
-                <NavbarTop />
-            </Box> */}
+
 
       <Flex
         height={{ base: "3.2rem", md: "4.94rem" }}

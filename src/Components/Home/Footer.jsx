@@ -33,58 +33,7 @@ const Footer = () => {
           flexDirection={{ base: "column", sm: "column", md: "row", lg: "row" }}
           gap={10}
         >
-          {/* <Box> */}
-            {/* <Text
-              color={"black"}
-              fontWeight="bold"
-              fontSize={{ base: "15px", sm: "20px", md: "20px", lg: "22px" }}
-              textAlign="center"
-            >
-              Subscribe to our awesome emails.
-            </Text> */}
 
-            {/* <Text textAlign="center" fontSize={"15px"}>
-              Get our latest offers and news straight in your inbox.
-            </Text> */}
-
-            {/* <Flex justify={"center"} gap={5} marginTop={7}>
-              <Input bg={"white"} width="250px" />
-              <Button
-                bg={"black"}
-                _hover={{ bg: "black" }}
-                color="white"
-                width={{ base: "70%", sm: "20%", md: "20%", lg: "25%" }}
-              >
-                Subscribe
-              </Button>
-            </Flex> */}
-          {/* </Box> */}
-
-          {/* <Box>
-            <Text
-              textAlign="center"
-              color={"black"}
-              fontWeight="bold"
-              fontSize={{ base: "15px", sm: "20px", md: "20px", lg: "25px" }}
-            >
-              Download our apps
-            </Text>
-
-            <Text textAlign="center" fontSize={"15px"}>
-              Shop our products and offers on-the-go.
-            </Text>
-
-            <Flex justify={"center"} gap={5} marginTop={7}>
-              <Image
-                width={{ base: "40%", sm: "25%", md: "40%", lg: "20%" }}
-                src="https://constant.myntassets.com/web/assets/img/80cc455a-92d2-4b5c-a038-7da0d92af33f1539674178924-google_play.png"
-              />
-              <Image
-                width={{ base: "40%", sm: "25%", md: "40%", lg: "20%" }}
-                src="https://constant.myntassets.com/web/assets/img/bc5e11ad-0250-420a-ac71-115a57ca35d51539674178941-apple_store.png"
-              />
-            </Flex>
-          </Box> */}
         </Flex>
       </Flex>
 
@@ -92,6 +41,7 @@ const Footer = () => {
 
       <Grid
         mt={"50px"}
+        bg={"#aaf0d1"}
         gridTemplateColumns={{
           base: "repeat(2,1fr)",
           sm: "repeat(3,1fr)",
@@ -105,14 +55,8 @@ const Footer = () => {
           <Text fontWeight="bold" fontSize={"16px"} color={"black"} mb={1}>
             Women
           </Text>
-          <Text mb={"2px"}>Tops</Text>
-          <Text mb={"2px"}>Ethnicwear</Text>
-          <Text mb={"2px"}>Bottoms</Text>
           <Text mb={"2px"}>Dresses</Text>
-          <Text mb={"2px"}>Jumpsuits</Text>
           <Text mb={"2px"}>Winterwear</Text>
-          <Text mb={"2px"}>Lingerie</Text>
-          <Text mb={"2px"}>Sportswear</Text>
           <Text mb={"2px"}>Beauty</Text>
           <Text mb={"2px"}>Watches</Text>
           <Text mb={"2px"}>sunglasses</Text>
@@ -122,13 +66,9 @@ const Footer = () => {
           <Text fontWeight="bold" fontSize={"16px"} color={"black"} mb={1}>
             Men
           </Text>
-          <Text mb={"2px"}>Tops</Text>
-          <Text mb={"2px"}>Bottoms</Text>
-          <Text mb={"2px"}>Ethnicwear</Text>
           <Text mb={"2px"}>Winterwear</Text>
           <Text mb={"2px"}>Sportswear</Text>
           <Text mb={"2px"}>Innerwear</Text>
-          <Text mb={"2px"}>Grooming</Text>
           <Text mb={"2px"}>Watches</Text>
           <Text mb={"2px"}>sunglasses</Text>
         </Box>
@@ -142,21 +82,8 @@ const Footer = () => {
           <Text mb={"2px"}>Infants Girls</Text>
           <Text mb={"2px"}>Infants Boys</Text>
           <Text mb={"2px"}>winterwear</Text>
-          <Text mb={"2px"}>Add ons</Text>
-          <Text mb={"2px"}>The Teen Shop</Text>
         </Box>
 
-        <Box width="65%" textAlign={"left"} fontSize={"14px"}>
-          <Text fontWeight="bold" fontSize={"16px"} color={"black"} mb={1}>
-            Shoes & Bags
-          </Text>
-          <Text mb={"2px"}>women</Text>
-          <Text mb={"2px"}>Men</Text>
-          <Text mb={"2px"}>Boys</Text>
-          <Text mb={"2px"}>Girls</Text>
-          <Text mb={"2px"}>Accessories</Text>
-          <Text mb={"2px"}>Essentials</Text>
-        </Box>
 
         <Box width="60%" textAlign={"left"} fontSize={"14px"}>
           <Text fontWeight="bold" fontSize={"16px"} color={"black"} mb={1}>
@@ -169,18 +96,6 @@ const Footer = () => {
           <Text mb={"2px"}>Perfumes</Text>
         </Box>
 
-        <Box width="65%" textAlign={"left"} fontSize={"14px"}>
-          <Text fontWeight="bold" fontSize={"16px"} color={"black"} mb={1}>
-            Explore
-          </Text>
-          <Text mb={"2px"}>Online Offers</Text>
-          <Text mb={"2px"}>Store Offers</Text>
-          <Text mb={"2px"}>Online Gift Card</Text>
-          <Text mb={"2px"}>Store Gift Card</Text>
-          <Text mb={"2px"}>Stores Nearby</Text>
-          <Text mb={"2px"}>EDGE</Text>
-          <Text mb={"2px"}>Membership</Text>
-        </Box>
 
         <Box width="60%" textAlign={"left"} fontSize={"14px"}>
           <Text fontWeight="bold" fontSize={"16px"} color={"black"} mb={1}>
@@ -191,7 +106,6 @@ const Footer = () => {
           <Text mb={"2px"}>Take a Tour</Text>
           <Text mb={"2px"}>Blog</Text>
           <Text mb={"2px"}>Store Locator</Text>
-          <Text mb={"2px"}>Landmark Cares</Text>
         </Box>
 
         <Box width="60%" textAlign={"left"} fontSize={"14px"}>
@@ -243,7 +157,7 @@ const Footer = () => {
               <Text color={"gray"} fontSize={"14px"}>
                 Talk to us
               </Text>
-              <Text>1800-123-1555</Text>
+              <Text>0000-123-0000</Text>
             </Box>
           </Flex>
 
@@ -267,7 +181,7 @@ const Footer = () => {
               <Text color={"gray"} fontSize={"14px"}>
                 Helpcentre
               </Text>
-              <Text>help@outfitstore.com</Text>
+              <Text>help@openlimits.com</Text>
             </Box>
           </Flex>
           <Flex
@@ -290,7 +204,7 @@ const Footer = () => {
               <Text color={"gray"} fontSize={"14px"}>
                 Write to us
               </Text>
-              <Text>help@outfitstore.com</Text>
+              <Text>info@openlimits.com</Text>
             </Box>
           </Flex>
         </Grid>
@@ -310,7 +224,7 @@ const Footer = () => {
               <AiFillFacebook fontSize={"24px"} />
             </Box>
             <Box>
-              <FaTwitter fontSize={"24px"} />
+              <FaTwitter  fontSize={"24px"} />
             </Box>
             <Box>
               <BsInstagram fontSize={"24px"} />
@@ -344,7 +258,7 @@ const Footer = () => {
               color={"gray"}
               fontSize={{ base: "12px", sm: "14px", md: "14", lg: "14px" }}
             >
-              © 2023 RNA Intellectual Property Limited.
+              © 2023 OPEN 🛍 LIMITS
             </Text>
             <Text
               color={"gray"}

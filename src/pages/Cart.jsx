@@ -49,11 +49,11 @@ export const Cart = () => {
   const handleDelete = (e) => {
     let { id, title } = e;
     axios
-      .delete(`https://lifestyle-mock-server-api.onrender.com/cart/PKR{id}`)
+      .delete(`https://lifestyle-mock-server-api.onrender.com/cart/${id}`)
       .then((res) => {
         dispatch(removeFromCart(id));
         toast({
-          title: `PKR{title}`,
+          title: `${title}`,
           description: "Deleted from Cart",
           status: "success",
           duration: 2000,
@@ -69,7 +69,7 @@ export const Cart = () => {
   const handleINC = (id, VAL) => {
     console.log(id, VAL);
     axios
-      .patch(`https://lifestyle-mock-server-api.onrender.com/cart/PKR{id}`, {
+      .patch(`https://lifestyle-mock-server-api.onrender.com/cart/${id}`, {
         quantity: VAL,
       })
       .then((res) => {
@@ -84,7 +84,7 @@ export const Cart = () => {
   const handleDEC = (id, VAL) => {
     console.log(id, VAL);
     axios
-      .patch(`https://lifestyle-mock-server-api.onrender.com/cart/PKR{id}`, {
+      .patch(`https://lifestyle-mock-server-api.onrender.com/cart/${id}`, {
         quantity: VAL,
       })
       .then((res) => {

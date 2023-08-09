@@ -140,7 +140,7 @@ const Singlecardmen = () => {
                 fontWeight={300}
                 fontSize={"2xl"}
               >
-                PKR{el.price} USD Inclusive of all taxes
+                PKR {el.price} PKR Inclusive of all taxes
               </Text>
               <Text
                 as="del"

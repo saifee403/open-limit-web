@@ -48,7 +48,7 @@ const Card = ({ actualPrice, type, id, image, price, title, discount }) => {
       textAlign="left"
       height={"520px"}
     >
-      <Link to={`/PKR{type}/PKR{id}`}>
+      <Link to={`/${type}/${id}`}>
         <Image borderRadius={"20px"} src={image}></Image>
         <Flex gap={"5px"} textAlign={"center"}>
           <Heading paddingTop={"8px"} size="md">

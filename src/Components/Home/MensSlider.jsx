@@ -3,7 +3,6 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import { IoIosArrowForward } from "react-icons/io";
 const data = [
-  "https://images.squarespace-cdn.com/content/v1/63ae2ffe7ff4986ab04c7b77/1682562149883-CFTJZT5UVP4J85G98P9J/mens-classic-tee-maroon-front-6449dc5ae1065.jpg?format=750w",
   "https://lmsin.net/cdn-cgi/image/w=300,q=70,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/LS-new/LS-UberHP-Promowidge2-Common-Banner4-24March23.jpg",
   "https://lmsin.net/cdn-cgi/image/w=300,q=70,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/LS-new/LS-UberHP-Promowidge2-Common-Banner1-07March23.jpg",
   "https://lmsin.net/cdn-cgi/image/w=300,q=70,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/LS-new/LS-UberHP-Promowidge2-Common-Banner2-07March23.jpg",

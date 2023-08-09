@@ -41,7 +41,7 @@ const AdminEdit = () => {
     e.preventDefault();
     axios
       .patch(
-        `https://lifestyle-mock-server-api.onrender.com/men/PKR{id}`,
+        `https://lifestyle-mock-server-api.onrender.com/men/${id}`,
         product
       )
       .then((res) => {
@@ -62,7 +62,7 @@ const AdminEdit = () => {
 
   useEffect(() => {
     axios
-      .get(`https://lifestyle-mock-server-api.onrender.com/men/PKR{id}`)
+      .get(`https://lifestyle-mock-server-api.onrender.com/men/${id}`)
       .then((res) => {
         setProduct(res.data);
         console.log(res.data);

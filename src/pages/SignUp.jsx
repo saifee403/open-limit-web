@@ -144,7 +144,7 @@ export default function Signup() {
             </Heading>
 
             <Text fontSize={"lg"} color={"gray.600"}>
-              Welcome to OutFit Store ✌️
+              Welcome to OPEN🛍LIMITS Store 
             </Text>
           </Stack>
 

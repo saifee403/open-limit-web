@@ -259,7 +259,7 @@ const Singlecardmen = () => {
                     <Text as={"span"} fontWeight={"bold"}>
                       Country of Origin:
                     </Text>{" "}
-                    India
+                    Pakistan
                   </ListItem>
                 </List>
               </Box>

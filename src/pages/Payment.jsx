@@ -188,9 +188,9 @@ function Payment() {
                     <Text fontSize={"9px"}>(Use your Debit card)</Text>
                   </Radio>
                   <Radio colorScheme="yellow" value="upi">
-                    UPI Payment
+                    JazzCash
                     <br />
-                    <Text fontSize={"9px"}>(Pay with UPI app)</Text>
+                    <Text fontSize={"9px"}>(Pay with JAzzCash app)</Text>
                   </Radio>
                   <Radio colorScheme="yellow" value="netbanking">
                     Net Banking
@@ -301,10 +301,10 @@ function Payment() {
                 >
                   <Box>
                     <FormControl>
-                      <FormLabel>Your UPI ID</FormLabel>
+                      <FormLabel>Your JazzCash Number</FormLabel>
                       <Input
                         _focus={{ border: "1px solid #cea464" }}
-                        placeholder="Enter your UPI ID"
+                        placeholder="Enter your JazzCash Number"
                       />
                     </FormControl>
                     <Button
@@ -334,14 +334,14 @@ function Payment() {
                 >
                   <Box>
                     <Select placeholder="Select your Bank">
-                      <option value="SBI NB"> SBI NB</option>
+                      <option value="SBI NB">Meezan Bank</option>
                       <option value="Punjab Bank">Punjab Bank</option>
-                      <option value="HDFC Bank">HDFC Bank</option>
-                      <option value="Kotak Bank">Kotak Bank</option>
-                      <option value="Punjab Bank">Punjab Bank</option>
-                      <option value="Axis Bank">Axis Bank</option>
-                      <option value="Bank of India">Bank of India</option>
-                      <option value="Other Bank">Other Bank</option>
+                      <option value="HDFC Bank">HBL Bank</option>
+                      <option value="Kotak Bank">UBL Bank</option>
+                      <option value="Punjab Bank">Alphla Bank</option>
+                      <option value="Axis Bank">Allied Bank</option>
+                      <option value="Bank of India">Faysal Bank</option>
+                      <option value="Other Bank">NBP</option>
                     </Select>
                     <Button
                       bgColor="#df9018"
@@ -371,7 +371,7 @@ function Payment() {
                   <Box>
                     <Text fontSize={"12px"} color="#939290" mt={"20px"}>
                       Pay at the time of delivery by cash or scan QR and pay
-                      through UPI.
+                      through JazzCASH.
                     </Text>
                     <Image
                       margin={"auto"}
@@ -402,14 +402,9 @@ function Payment() {
                 <Image src="https://i1.lmsin.net/website_images/in/checkout/comodo-secure-icon.svg" />
               </Box>
               <Text mb="10px">
-                Your credit card details are securely encrypted and passed
-                directly to our PCI DSS compliant Payment Gateway for
-                processing. We only store your credit card's last 4 digits and
-                the expiration date. Your traffic to this page is secured using
-                either a 256-bit or 128-bit SSL certificate depending on your
-                browser version.
+              You can choose to pay through a credit/debit card, opt for cash on delivery or even go for EMI (easy monthly instalments). You can also avail exclusive offers by downloading Daraz Wallet – a closed loop digital wallet that offers you a secure, easy way to make payments. We also have easypaisa & jazzcash payment method for our customers' ease
               </Text>
-              <Text mb="10px">© 2021 RNA Intellectual Property Limited.</Text>
+              <Text mb="10px">© 2023 OPEN 🛍 LIMITS.</Text>
               <Text mb="10px">
                 Privacy Policy-Terms of Use- Terms & Condition{" "}
               </Text>

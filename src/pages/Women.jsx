@@ -38,7 +38,7 @@ export const Women = () => {
       <Navbar />
       <Box>
         <Progress
-          colorScheme="pink"
+          colorScheme="blue"
           hasStripe
           height="42px"
           value={100}

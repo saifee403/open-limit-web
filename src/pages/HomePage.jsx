@@ -128,11 +128,13 @@ function HomePage() {
         </Text>
 
         <Box marginTop={{ base: 3, sm: 4, md: 6, lg: 7 }}>
-          <Image
+        <Link to="/women">
+        <Image
             width="100%"
             borderRadius={"20px"}
             src="https://lmsin.net/cdn-cgi/image/w=1232,q=70,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/LS-new/LS-UberHP-PromoWidget24-Desk-Banner1-07Mar23.jpg"
           />
+        </Link>
         </Box>
         <WomenSlider />
       </Box>

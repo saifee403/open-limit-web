@@ -3,6 +3,7 @@ import React from "react";
 import { BsSearch } from "react-icons/bs";
 
 function SearchBar() {
+  
   return (
     <Box borderRadius={"md"} pos="relative">
       <InputGroup>

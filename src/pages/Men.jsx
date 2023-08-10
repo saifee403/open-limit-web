@@ -3,12 +3,15 @@ import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useLocation, useSearchParams } from "react-router-dom";
 import { getmens } from "../redux/MenReducer/action";
-import { Box, Grid, Progress, Spinner, Text } from "@chakra-ui/react";
+import { Box, Grid, Progress, Spinner, Text, transition } from "@chakra-ui/react";
 import Card from "../Components/Card";
 import Pagination1 from "../Components/Filter/Pagination1";
 import Navbar from "../Components/Home/Navbar";
 import Footer from "../Components/Home/Footer";
 import Menfilter from "../Components/Filter/Menfilter";
+import AOS from "aos";
+import "aos/dist/aos.css"
+
 
 export const Men = () => {
   const [searchParams] = useSearchParams();
@@ -32,7 +35,9 @@ export const Men = () => {
     dispatch(getmens(Obj));
     console.log(total);
   }, [location.search]);
-
+  useEffect(()=>{
+    AOS.init({duration:2000});
+  },[]);
   return (
     <div>
       <Navbar />
@@ -57,6 +62,7 @@ export const Men = () => {
       <Menfilter type={"men"} />
       {isLoading ? (
         <Box
+         
           textAlign={"center"}
           width={"100%"}
           height={"400px"}
@@ -74,6 +80,7 @@ export const Men = () => {
         "Something went wrong"
       ) : (
         <Grid
+          data-aos="zoom-in"
           width={"80%"}
           margin={"auto"}
           justifyContent="space-between"

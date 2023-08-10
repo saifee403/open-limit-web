@@ -8,6 +8,7 @@ import {
   Text,
 } from "@chakra-ui/react";
 import React from "react";
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import HomeSlider from "../Components/Home/HomeSlider";
 import KidSlider from "../Components/Home/KidSlider";
@@ -16,10 +17,16 @@ import TrendingSlider from "../Components/Home/TrendingSlider";
 import WomenSlider from "../Components/Home/WomenSlider";
 import Footer from "../Components/Home/Footer";
 import Navbar from "../Components/Home/Navbar";
+import AOS from "aos";
+import "aos/dist/aos.css"
+
 
 
 
 function HomePage() {
+  useEffect(()=>{
+    AOS.init({duration:2000});
+  },[]);
   return (
     <Box bgColor={"#fdfdfd"}>
       {/* <Box bgColor={"black"}>  */}
@@ -45,10 +52,9 @@ function HomePage() {
           New arrivals in womenswear upto 30%
         </Text>
       </Box>
-      
       <HomeSlider />
 
-      <Box
+      <Box data-aos="zoom-in"
         width={{ base: "90%", sm: "90%", md: "90%", lg: "85%" }}
         margin="auto"
         marginTop={{ base: "20px", sm: "30px", md: "30px", lg: "40px" }}
@@ -60,40 +66,8 @@ function HomePage() {
         />
       </Box>
 
-      {/* Our Benifits */}
-      {/* <Box
-        width={{ base: "90%", sm: "90%", md: "90%", lg: "85%" }}
-        margin="auto"
-      >
-        <Text
-          width={{ base: "100px", sm: "150px", md: "150px", lg: "190px" }}
-          fontSize={{ base: "100%", sm: "150%", md: "150%", lg: "200%" }}
-          fontWeight={"semibold"}
-          textAlign="left"
-          borderBottom={"2px"}
-          borderBottomWidth="5px"
-          marginTop={{ base: 2, sm: 3, md: 7, lg: 10 }}
-          borderBottomColor={"#f89f17"}
-        >
-          Our Benefits
-        </Text>
 
-        <Flex marginTop={{ base: 3, sm: 4, md: 6, lg: 7 }} gap="20px">
-          <Box>
-            <Image src="https://lmsin.net/cdn-cgi/image/w=410,q=70,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/LS-new/LS-DesktopUberHP-OurBenefit1-22Feb2023.jpg" />
-          </Box>
-
-          <Box>
-            <Image src="https://lmsin.net/cdn-cgi/image/w=410,q=70,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/LS-new/LS-DesktopUberHP-OurBenefit2-13Oct2022.jpg" />
-          </Box>
-
-          <Box display={{ base: "none", sm: "none", md: "block", lg: "block" }}>
-            <Image src="https://lmsin.net/cdn-cgi/image/w=410,q=70,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/LS-new/LS-DesktopUberHP-OurBenefit3-13Oct2022.jpg" />
-          </Box>
-        </Flex>
-      </Box> */}
-
-      <Box
+      <Box data-aos="zoom-in"
         width={{ base: "90%", sm: "90%", md: "90%", lg: "85%" }}
         margin="auto"
         marginTop={{ base: "20px", sm: "30px", md: "30px", lg: "40px" }}
@@ -111,11 +85,12 @@ function HomePage() {
 
       {/* womens store */}
 
-      <Box
+      <Box  data-aos="zoom-in"
         width={{ base: "90%", sm: "90%", md: "90%", lg: "85%" }}
         margin="auto"
       >
         <Text
+        data-aos="zoom-in"
           width={{ base: "110px", sm: "170px", md: "170px", lg: "220px" }}
           fontSize={{ base: "100%", sm: "150%", md: "150%", lg: "200%" }}
           fontWeight={"semibold"}
@@ -128,7 +103,7 @@ function HomePage() {
           Women's Store
         </Text>
 
-        <Box marginTop={{ base: 3, sm: 4, md: 6, lg: 7 }}>
+        <Box data-aos="zoom-in" marginTop={{ base: 3, sm: 4, md: 6, lg: 7 }}>
         <Link to="/women">
         <Image
             width="100%"
@@ -143,7 +118,7 @@ function HomePage() {
 
       {/* Mens Wear */}
 
-      <Box
+      <Box data-aos="zoom-in"
         width={{ base: "90%", sm: "90%", md: "90%", lg: "85%" }}
         margin="auto"
       >
@@ -160,7 +135,7 @@ function HomePage() {
           Mens's Store
         </Text>
 
-        <Box marginTop={{ base: 3, sm: 4, md: 6, lg: 7 }}>
+        <Box data-aos="zoom-in" marginTop={{ base: 3, sm: 4, md: 6, lg: 7 }}>
           <Link to="/men"><Image
             borderRadius={"20px"}
             width="100%"
@@ -174,7 +149,7 @@ function HomePage() {
 
       {/* Kid's wear */}
 
-      <Box
+      <Box data-aos="zoom-in"
         width={{ base: "90%", sm: "90%", md: "90%", lg: "85%" }}
         margin="auto"
       >
@@ -191,7 +166,7 @@ function HomePage() {
           Kids Store
         </Text>
 
-        <Box marginTop={{ base: 3, sm: 4, md: 6, lg: 7 }}>
+        <Box  data-aos="zoom-in" marginTop={{ base: 3, sm: 4, md: 6, lg: 7 }}>
           <Image
             borderRadius={"20px"}
             width="100%"
@@ -204,7 +179,7 @@ function HomePage() {
 
       {/* Trending Add-ons */}
 
-      <Box
+      <Box data-aos="zoom-in"
         width={{ base: "90%", sm: "90%", md: "90%", lg: "85%" }}
         margin="auto"
       >
@@ -221,7 +196,7 @@ function HomePage() {
           Trending Add-Ons
         </Text>
 
-        <Box marginTop={{ base: 3, sm: 4, md: 6, lg: 7 }}>
+        <Box data-aos="zoom-in" marginTop={{ base: 3, sm: 4, md: 6, lg: 7 }}>
           <Image
             borderRadius={"20px"}
             width="100%"
@@ -233,7 +208,7 @@ function HomePage() {
       </Box>
 
       <Divider />
-      <Box
+      <Box data-aos="zoom-in"
         width={{ base: "90%", sm: "90%", md: "90%", lg: "85%" }}
         margin="auto"
       >

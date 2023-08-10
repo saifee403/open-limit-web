@@ -75,7 +75,7 @@ export default class KidSlider extends Component {
       ],
     };
     return (
-      <Box marginTop={{ base: 6, sm: 7, md: 10, lg: 20 }}>
+      <Box data-aos="flip-right" marginTop={{ base: 6, sm: 7, md: 10, lg: 20 }}>
         <Slider {...settings}>
           {data.map((item, i) => {
             return (

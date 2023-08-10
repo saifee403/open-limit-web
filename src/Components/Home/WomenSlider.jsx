@@ -1,7 +1,10 @@
 import { Box, Image, Text } from "@chakra-ui/react";
-import React, { Component } from "react";
+import React, { Component, useEffect } from "react";
 import Slider from "react-slick";
 import { IoIosArrowForward } from "react-icons/io";
+import AOS from "aos";
+import "aos/dist/aos.css"
+
 const data = [
   "https://lmsin.net/cdn-cgi/image/w=300,q=70,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/LS-new/LS-UberHP-Promowidget25-Common-Banner1-07March23A.jpg",
   "https://lmsin.net/cdn-cgi/image/w=300,q=70,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/LS-new/LS-UberHP-Promowidget25-Common-Banner2-07March23A.jpg",
@@ -13,6 +16,9 @@ const data = [
   "https://lmsin.net/cdn-cgi/image/w=300,q=70,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/LS-new/LS-UberHP-Promowidget25-Common-Banner9-07March23A.jpg",
 ];
 function SampleNextArrow({ onClick }) {
+  useEffect(()=>{
+    AOS.init({duration:2000});
+  },[])
   return (
     <Box
       fontSize={{ base: "20px", sm: "25px", md: "30px", lg: "30px" }}
@@ -80,7 +86,7 @@ export default class WomenSlider extends Component {
         <Slider {...settings}>
           {data.map((item, i) => {
             return (
-              <Box borderRadius={"20px"} key={i}>
+              <Box data-aos="zoom-in" borderRadius={"20px"} key={i}>
                 <Image
                   borderRadius={"20px"}
                   width={"93%"}

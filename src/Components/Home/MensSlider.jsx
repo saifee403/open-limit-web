@@ -1,7 +1,9 @@
 import { Box, Image, Text } from "@chakra-ui/react";
-import React, { Component } from "react";
+import React, { Component, useEffect } from "react";
 import Slider from "react-slick";
 import { IoIosArrowForward } from "react-icons/io";
+import AOS from "aos";
+import "aos/dist/aos.css"
 const data = [
   "https://lmsin.net/cdn-cgi/image/w=300,q=70,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/LS-new/LS-UberHP-Promowidge2-Common-Banner4-24March23.jpg",
   "https://lmsin.net/cdn-cgi/image/w=300,q=70,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/LS-new/LS-UberHP-Promowidge2-Common-Banner1-07March23.jpg",
@@ -13,8 +15,12 @@ const data = [
   "https://lmsin.net/cdn-cgi/image/w=300,q=70,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/LS-new/LS-UberHP-Promowidge2-Common-Banner8-07March23.jpg",
 ];
 function SampleNextArrow({ onClick }) {
+  useEffect(()=>{
+    AOS.init({duration:2000});
+  },[]);
   return (
     <Box
+      
       fontSize={{ base: "20px", sm: "25px", md: "30px", lg: "30px" }}
       padding={{
         base: "2px 2px",
@@ -76,7 +82,7 @@ export default class MenSlider extends Component {
       ],
     };
     return (
-      <Box marginTop={{ base: 6, sm: 7, md: 10, lg: 20 }}>
+      <Box  data-aos="zoom-in" marginTop={{ base: 6, sm: 7, md: 10, lg: 20 }}>
         <Slider {...settings}>
           {data.map((item, i) => {
             return (

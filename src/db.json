@@ -1171,15 +1171,15 @@
   "registeredUser": [
     {
       "id": 1,
-      "firstName": "Parul",
-      "lastName": "Saini",
-      "email": "p@gmail.com",
+      "firstName": "saif",
+      "lastName": "rehman",
+      "email": "saif@gmail.com",
       "password": "1234"
     },
     {
-      "firstName": "x",
-      "lastName": "y",
-      "email": "x@gmail.com",
+      "firstName": "muhammad",
+      "lastName": "saif",
+      "email": "s@gmail.com",
       "password": "1234",
       "id": 2
     }

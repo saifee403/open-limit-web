@@ -74,7 +74,7 @@ export default function Login() {
       align={"center"}
       justify={"center"}
       backgroundImage={
-        "https://cdn.w600.comps.canstockphoto.com/online-shopping-flat-vector-banner-eps-vector_csp37959881.jpg"
+        "https://images.unsplash.com/photo-1540760938999-077b8231d890?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
       }
     >
       <Stack
@@ -83,13 +83,13 @@ export default function Login() {
         maxW={"lg"}
         py={12}
         px={6}
-        backgroundColor={"pink.100"}
+        backgroundColor={""}
       >
         <Stack align={"center"}>
-          <Heading fontSize={"4xl"} color={"red.400"}>
+          <Heading fontSize={"4xl"} color={"green.400"}>
             Sign in to your account
           </Heading>
-          <Text fontSize={"lg"} color={"gray.600"}>
+          <Text fontSize={"lg"} color={"black.600"}>
             to enjoy all of our cool{" "}
             <Link color={"brown.400"} href="/">
               features

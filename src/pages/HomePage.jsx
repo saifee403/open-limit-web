@@ -62,7 +62,7 @@ function HomePage() {
         <Image
           width="100%"
           borderRadius={"20px"}
-          src="https://lmsin.net/cdn-cgi/image/w=1232,q=70,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/LS-new/Uber-HP-Desktop-PromoStrip2-14Mar23.jpg"
+          src="https://res.cloudinary.com/dna07ra6p/image/upload/v1691751560/cefr0r6bvr00fu7z4lo0.png"
         />
       </Box>
 

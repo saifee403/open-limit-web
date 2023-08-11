@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import { IoIosArrowForward } from "react-icons/io";
 const data = [
-  "https://lmsin.net/cdn-cgi/image/w=300,q=70,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/LS-new/LS-UberHP-Promowidget27-Desktop-Banner1-10March23.jpg",
+  "https://res.cloudinary.com/dna07ra6p/image/upload/v1691752895/bzqgz3se7qwyjrmbf3tr.png",
   "https://lmsin.net/cdn-cgi/image/w=300,q=70,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/LS-new/LS-UberHP-Promowidget27-Desktop-Banner2-10March23.jpg",
   "https://lmsin.net/cdn-cgi/image/w=300,q=70,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/LS-new/LS-UberHP-Promowidget27-Desktop-Banner3-10March23.jpg",
   "https://lmsin.net/cdn-cgi/image/w=300,q=70,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/LS-new/LS-UberHP-Promowidget27-Desktop-Banner4-10March23.jpg",

@@ -6,7 +6,7 @@ import AOS from "aos";
 import "aos/dist/aos.css"
 
 const data = [
-  "https://lmsin.net/cdn-cgi/image/w=300,q=70,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/LS-new/LS-UberHP-Promowidget25-Common-Banner1-07March23A.jpg",
+  "https://res.cloudinary.com/dna07ra6p/image/upload/v1691752104/pgseelwsictyykc2kuz8.png",
   "https://lmsin.net/cdn-cgi/image/w=300,q=70,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/LS-new/LS-UberHP-Promowidget25-Common-Banner2-07March23A.jpg",
   "https://lmsin.net/cdn-cgi/image/w=300,q=70,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/LS-new/LS-UberHP-Promowidget25-Common-Banner3-07March23A.jpg",
   "https://lmsin.net/cdn-cgi/image/w=300,q=70,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedad8af927.lmsin.net/LS-Fest/LS-new/LS-UberHP-Promowidget25-Common-Banner4-07March23A.jpg",

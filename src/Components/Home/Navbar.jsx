@@ -18,13 +18,13 @@ import { AiOutlineHeart } from "react-icons/ai";
 import Logo from "../../Asssets/logo2.png";
 import { Link, useNavigate } from "react-router-dom";
 import HomeMenu from "./HomeMenu";
+import SearchBar from "./SearchBar";
 import SideBar from "./Sidebar";
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
 import { logout } from "../../redux/authReducer/action";
 import axios from "axios";
 import { addToCart } from "../../redux/cartReducer/action";
-
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -53,8 +53,6 @@ const Navbar = () => {
       width="100%"
       boxShadow=" 0px 7px 7px -5px rgba(170, 159, 170, 0.2)"
     >
-
-
       <Flex
         height={{ base: "3.2rem", md: "4.94rem" }}
         px={{ base: "1rem", md: "3rem" }}
@@ -87,8 +85,13 @@ const Navbar = () => {
         >
           <HomeMenu />
         </Box>
-
-
+        <Box
+          minWidth={"30%"}
+          width="90%"
+          display={{ base: "none", lg: "block" }}
+        >
+          <SearchBar />
+        </Box>
         <Flex gap={{ base: "0.5rem", md: "1.5rem" }} align="center">
           <Popover>
             <Menu>
@@ -174,7 +177,6 @@ const Navbar = () => {
           </Link>
         </Flex>
       </Flex>
-
     </Box>
   );
 };

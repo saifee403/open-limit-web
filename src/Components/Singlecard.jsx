@@ -268,6 +268,7 @@ const Singlecardwomen = () => {
 
             <Button
               rounded={"none"}
+              variant='solid'
               w={"full"}
               mt={8}
               size={"lg"}
@@ -278,6 +279,7 @@ const Singlecardwomen = () => {
               _hover={{
                 transform: "translateY(2px)",
                 boxShadow: "lg",
+                
               }}
               onClick={handleAdd}
             >

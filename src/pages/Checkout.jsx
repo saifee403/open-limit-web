@@ -160,7 +160,7 @@ function Checkout() {
                         <FormLabel>Mobile No.</FormLabel>
                         <Input
                           type={"number"}
-                          placeholder="+91 Enter mobile no"
+                          placeholder="+92 Enter mobile no"
                           _focus={{ border: "1px solid #cea464" }}
                           value={address.mobile}
                           onChange={handleChange}

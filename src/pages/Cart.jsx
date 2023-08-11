@@ -15,7 +15,7 @@ import {
   Image,
   useToast,
 } from "@chakra-ui/react";
-import { CloseIcon } from "@chakra-ui/icons";
+import { DeleteIcon } from "@chakra-ui/icons";
 import { useNavigate } from "react-router";
 import { useDispatch, useSelector } from "react-redux";
 import {
@@ -208,7 +208,7 @@ export const Cart = () => {
                           e.quantity}
                       </Td>
                       <Td>
-                        <CloseIcon onClick={() => handleDelete(e)} />
+                        <DeleteIcon onClick={() => handleDelete(e)} />
                       </Td>
                       <Td>
                         {" "}

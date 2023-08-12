@@ -522,6 +522,7 @@ function Payment() {
               {cartItems.map((item) => {
                 return (
                   <Flex
+                    key={item.id}
                     flexDir={{
                       base: "column",
                       sm: "row",

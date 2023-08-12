@@ -313,7 +313,7 @@ function Checkout() {
                         fontSize={"17px"}
                         fontWeight="semibold"
                       >
-                        Mobile No: +91{storeADD.mobile}
+                        Mobile No: +92{storeADD.mobile}
                       </Text>
                     </Box>
                     <Button
@@ -452,6 +452,7 @@ function Checkout() {
                 {cartItems.map((item) => {
                   return (
                     <Flex
+                    key={item.id}
                       flexDir={{
                         base: "column",
                         sm: "row",

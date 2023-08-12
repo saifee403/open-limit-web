@@ -18,7 +18,6 @@ import { AiOutlineHeart } from "react-icons/ai";
 import Logo from "../../Asssets/logo2.png";
 import { Link, useNavigate } from "react-router-dom";
 import HomeMenu from "./HomeMenu";
-import SearchBar from "./SearchBar";
 import SideBar from "./Sidebar";
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
@@ -85,13 +84,7 @@ const Navbar = () => {
         >
           <HomeMenu />
         </Box>
-        <Box
-          minWidth={"30%"}
-          width="90%"
-          display={{ base: "none", lg: "block" }}
-        >
-          <SearchBar />
-        </Box>
+
         <Flex gap={{ base: "0.5rem", md: "1.5rem" }} align="center">
           <Popover>
             <Menu>

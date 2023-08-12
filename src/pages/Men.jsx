@@ -62,7 +62,7 @@ export const Men = () => {
       <Menfilter type={"men"} />
       {isLoading ? (
         <Box
-         
+        data-aos="zoom-in"
           textAlign={"center"}
           width={"100%"}
           height={"400px"}

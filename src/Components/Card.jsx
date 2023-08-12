@@ -62,7 +62,7 @@ const Card = ({ actualPrice, type, id, image, price, title, discount }) => {
           {title}{" "}
         </Text>
       </Link>
-      <Button class="add-to-cart-btn" onClick={handleClick}>
+      <Button className="add-to-cart-btn" onClick={handleClick}>
         Add To Cart
       </Button>
     </Box>

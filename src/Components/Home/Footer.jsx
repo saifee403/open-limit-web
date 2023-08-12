@@ -85,7 +85,7 @@ const Footer = () => {
         </Box>
 
 
-        <Box width="60%" textAlign={"left"} fontSize={"14px"}>
+        {/* <Box width="60%" textAlign={"left"} fontSize={"14px"}>
           <Text fontWeight="bold" fontSize={"16px"} color={"black"} mb={1}>
             Beauty
           </Text>
@@ -94,7 +94,7 @@ const Footer = () => {
           <Text mb={"2px"}>Makeup Lips</Text>
           <Text mb={"2px"}>Makeup Nails</Text>
           <Text mb={"2px"}>Perfumes</Text>
-        </Box>
+        </Box> */}
 
 
         <Box width="60%" textAlign={"left"} fontSize={"14px"}>

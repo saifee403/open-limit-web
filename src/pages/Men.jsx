@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useLocation, useSearchParams } from "react-router-dom";
 import { getmens } from "../redux/MenReducer/action";
-import { Box, Grid, Progress, Spinner, Text, transition } from "@chakra-ui/react";
+import { Box, Grid, Progress, Spinner, Text } from "@chakra-ui/react";
 import Card from "../Components/Card";
 import Pagination1 from "../Components/Filter/Pagination1";
 import Navbar from "../Components/Home/Navbar";
@@ -62,7 +62,7 @@ export const Men = () => {
       <Menfilter type={"men"} />
       {isLoading ? (
         <Box
-        data-aos="zoom-in"
+        
           textAlign={"center"}
           width={"100%"}
           height={"400px"}

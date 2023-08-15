@@ -520,14 +520,9 @@ function Checkout() {
                   <Image src="https://i1.lmsin.net/website_images/in/checkout/comodo-secure-icon.svg" />
                 </Box>
                 <Text mb="10px">
-                  Your credit card details are securely encrypted and passed
-                  directly to our PCI DSS compliant Payment Gateway for
-                  processing. We only store your credit card's last 4 digits and
-                  the expiration date. Your traffic to this page is secured
-                  using either a 256-bit or 128-bit SSL certificate depending on
-                  your browser version.
+                You can choose to pay through a credit/debit card, opt for cash on delivery or even go for EMI (easy monthly instalments). You can also avail exclusive offers by downloading Daraz Wallet – a closed loop digital wallet that offers you a secure, easy way to make payments. We also have easypaisa & jazzcash payment method for our customers' ease
                 </Text>
-                <Text mb="10px">© 2021 RNA Intellectual Property Limited.</Text>
+                <Text mb="10px">© 2021 OPEN 🛍 LIMITS.</Text>
                 <Text mb="10px">
                   Privacy Policy-Terms of Use- Terms & Condition{" "}
                 </Text>
